@@ -1,0 +1,41 @@
+.header {
+  margin-top: 0;
+  box-shadow: 0px 10px 10px -15px rgb(135, 130, 130);
+  height: 5.5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header > h2 {
+  color: black;
+  margin-top: 30px;
+  margin-left: 40px;
+  font-size: 30px;
+}
+
+.logo-image {
+  width: 35px;
+  margin-left: 25px;
+}
+
+.input {
+  width: 500px;
+  height: 30px;
+  margin-left: 1080px;
+  border: 1px solid rgb(222, 213, 213);
+  border-radius: 30px;
+  padding: 12px 25px;
+  outline: none;
+  font-size: 22px;
+  font-family: "Josefin Sans", sans-serif;
+  position: relative;
+}
+
+.search-icon {
+  width: 20px;
+  right: 50px;
+  top: 34px;
+  position: absolute;
+  cursor: pointer;
+}

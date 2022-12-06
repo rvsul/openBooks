@@ -1,0 +1,29 @@
+.book-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid rgb(186, 173, 173); */
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  height: 430px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.book-image {
+  width: 250px;
+  max-height: 300px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.title-div > h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.price-div {
+  position: absolute;
+  bottom: 6px;
+}
